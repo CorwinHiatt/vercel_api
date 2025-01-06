@@ -2,11 +2,23 @@
   "name": "coleesitevercel_backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module", 
   "scripts": {
+    "start": "vercel dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+  "start": "vercel dev",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+
 }
